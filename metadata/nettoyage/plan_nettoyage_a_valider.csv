@@ -1,0 +1,9 @@
+﻿id;famille;variable;annees;probleme;action_prevue;test_acceptation;precaution;decision;statut_initial
+R001;caracteristiques;Accident_Id;2022;Nom different;Renommage deja effectue dans Silver;Verifier presence de Num_Acc et absence de Accident_Id;Aucune suppression;DEJA_APPLIQUE;VALIDEE
+R002;usagers;id_usager;2019-2020;Colonne absente;Conserver id_usager vide pour 2019-2020;Verifier colonne presente et valeurs vides sur ces annees;Ne jamais generer de faux identifiants metier;DEJA_APPLIQUE;VALIDEE
+R003;lieux;larrout;2020-2024;Valeurs -1 tres frequentes;Identifier les -1 de larrout sans modification;Comparer les valeurs et la documentation par annee;Pas de remplacement avant validation;A_ARBITRER;A_VERIFIER
+R004;lieux;v2;2019-2024;Marqueurs vide N/A null;Recenser les marqueurs vide N/A et null de v2;Verifier les occurrences par annee;Conserver les valeurs originales dans RAW;A_ARBITRER;A_VERIFIER
+R005;lieux;lartpc;2019-2024;Tres forte incompletude;Conserver lartpc et documenter la completude;Mesurer le taux de remplissage par annee;Ne pas supprimer la colonne;A_CONFIRMER;PROVISOIRE
+R006;vehicules;occutc;2019-2024;Tres forte incompletude;Conserver occutc et analyser son applicabilite;Comparer les valeurs aux categories de vehicules;Ne pas imputer automatiquement;A_CONFIRMER;PROVISOIRE
+R007;usagers;toutes;2019-2020;164 doublons exacts supplementaires;Conserver et signaler les repetitions usagers;Reverifier les 164 doublons supplementaires;Aucune suppression automatique;A_ARBITRER;A_VERIFIER
+R008;lieux;Num_Acc;2023-2024;Plusieurs lignes par accident;Preserver plusieurs lieux pour un accident;Verifier cardinalite et avertir des risques de jointure;Aucune deduplication sur Num_Acc seul;A_CONFIRMER;PROVISOIRE

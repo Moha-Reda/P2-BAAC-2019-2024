@@ -1,0 +1,5 @@
+﻿famille;variable;definition;unite;regle_provisoire;statut
+lieux;lartpc;Largeur du terre-plein central si existant;metre;Conserver les valeurs et signaler les absences;DOCUMENTE
+lieux;larrout;Largeur de la chaussee affectee a la circulation;metre;Signaler les valeurs -1 sans les modifier;A_VALIDER
+lieux;v2;Indice alphanumerique de la route;texte;Signaler les marqueurs vides N/A et null;DOCUMENTE
+vehicules;occutc;Nombre d occupants dans le transport en commun;personnes;Conserver les valeurs et examiner leur applicabilite;DOCUMENTE

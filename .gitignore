@@ -1,0 +1,21 @@
+﻿# Secrets PostgreSQL et Neon
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+pgpass.conf
+.pgpass
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Fichiers temporaires
+.vscode/
+.idea/
+*.tmp
+*.log

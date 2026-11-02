@@ -1,0 +1,9 @@
+﻿id;famille;variable;annees;probleme;action_proposee;statut
+R001;caracteristiques;Accident_Id;2022;Nom different;Renommer en Num_Acc dans Silver;VALIDEE
+R002;usagers;id_usager;2019-2020;Colonne absente;Conserver vide sans inventer identifiant;VALIDEE
+R003;lieux;larrout;2020-2024;Valeurs -1 tres frequentes;Verifier signification officielle;A_VERIFIER
+R004;lieux;v2;2019-2024;Marqueurs vide N/A null;Documenter et normaliser si confirme;A_VERIFIER
+R005;lieux;lartpc;2019-2024;Tres forte incompletude;Conserver et documenter;PROVISOIRE
+R006;vehicules;occutc;2019-2024;Tres forte incompletude;Conserver et verifier applicabilite;PROVISOIRE
+R007;usagers;toutes;2019-2020;164 doublons exacts supplementaires;Conserver jusqu a validation metier;A_VERIFIER
+R008;lieux;Num_Acc;2023-2024;Plusieurs lignes par accident;Conserver et documenter cardinalite;PROVISOIRE

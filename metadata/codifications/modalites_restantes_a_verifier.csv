@@ -1,0 +1,8 @@
+﻿famille;variable;code;effectif_total;annees_presentes;libelle;type;statut;source
+caracteristiques;int;-1;14;3;;CODE_A_INTERPRETER;A_VERIFIER;
+caracteristiques;lum;-1;9;3;;CODE_A_INTERPRETER;A_VERIFIER;
+usagers;actp;7;107;6;;CODE_A_INTERPRETER;A_VERIFIER;
+usagers;actp;8;75;6;;CODE_A_INTERPRETER;A_VERIFIER;
+usagers;grav;-1;419;3;;CODE_A_INTERPRETER;A_VERIFIER;
+usagers;sexe;-1;10632;4;;CODE_A_INTERPRETER;A_VERIFIER;
+vehicules;catv;-1;17;5;;CODE_A_INTERPRETER;A_VERIFIER;

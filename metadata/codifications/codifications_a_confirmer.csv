@@ -1,0 +1,8 @@
+﻿famille;variable;code;effectif_total;annees_presentes;libelle;type;statut;source
+caracteristiques;int;-1;14;3;Non renseigne presume;CODE_A_INTERPRETER;A_CONFIRMER;Interpretation provisoire
+caracteristiques;lum;-1;9;3;Non renseigne presume;CODE_A_INTERPRETER;A_CONFIRMER;Interpretation provisoire
+usagers;actp;7;107;6;Quitte l'arret du transport collectif;CODE_A_INTERPRETER;HISTORIQUE_A_CONFIRMER;Guide BAAC 2017
+usagers;actp;8;75;6;Accede a l'arret du transport collectif;CODE_A_INTERPRETER;HISTORIQUE_A_CONFIRMER;Guide BAAC 2017
+usagers;grav;-1;419;3;Non renseigne presume;CODE_A_INTERPRETER;A_CONFIRMER;Interpretation provisoire
+usagers;sexe;-1;10632;4;Non renseigne presume;CODE_A_INTERPRETER;A_CONFIRMER;Interpretation provisoire
+vehicules;catv;-1;17;5;Non renseigne presume;CODE_A_INTERPRETER;A_CONFIRMER;Interpretation provisoire

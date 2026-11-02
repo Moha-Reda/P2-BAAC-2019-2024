@@ -1,0 +1,59 @@
+﻿controle;annee;lignes_controlees;anomalies_potentielles;remarque
+mois_invalide;2019;58840;0;Mois absent ou hors de 1 a 12
+jour_invalide;2019;58840;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2019;58840;0;Date impossible ou incomplete
+lat_absente;2019;58840;0;Coordonnee vide
+lat_non_numerique;2019;58840;0;Conversion numerique impossible
+lat_hors_limites;2019;58840;0;Coordonnee hors limites geographiques
+long_absente;2019;58840;0;Coordonnee vide
+long_non_numerique;2019;58840;0;Conversion numerique impossible
+long_hors_limites;2019;58840;0;Coordonnee hors limites geographiques
+mois_invalide;2020;47744;0;Mois absent ou hors de 1 a 12
+jour_invalide;2020;47744;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2020;47744;0;Date impossible ou incomplete
+lat_absente;2020;47744;0;Coordonnee vide
+lat_non_numerique;2020;47744;0;Conversion numerique impossible
+lat_hors_limites;2020;47744;0;Coordonnee hors limites geographiques
+long_absente;2020;47744;0;Coordonnee vide
+long_non_numerique;2020;47744;0;Conversion numerique impossible
+long_hors_limites;2020;47744;0;Coordonnee hors limites geographiques
+mois_invalide;2021;56518;0;Mois absent ou hors de 1 a 12
+jour_invalide;2021;56518;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2021;56518;0;Date impossible ou incomplete
+lat_absente;2021;56518;0;Coordonnee vide
+lat_non_numerique;2021;56518;0;Conversion numerique impossible
+lat_hors_limites;2021;56518;0;Coordonnee hors limites geographiques
+long_absente;2021;56518;0;Coordonnee vide
+long_non_numerique;2021;56518;0;Conversion numerique impossible
+long_hors_limites;2021;56518;0;Coordonnee hors limites geographiques
+mois_invalide;2022;55302;0;Mois absent ou hors de 1 a 12
+jour_invalide;2022;55302;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2022;55302;0;Date impossible ou incomplete
+lat_absente;2022;55302;0;Coordonnee vide
+lat_non_numerique;2022;55302;0;Conversion numerique impossible
+lat_hors_limites;2022;55302;0;Coordonnee hors limites geographiques
+long_absente;2022;55302;0;Coordonnee vide
+long_non_numerique;2022;55302;0;Conversion numerique impossible
+long_hors_limites;2022;55302;0;Coordonnee hors limites geographiques
+mois_invalide;2023;54822;0;Mois absent ou hors de 1 a 12
+jour_invalide;2023;54822;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2023;54822;0;Date impossible ou incomplete
+lat_absente;2023;54822;0;Coordonnee vide
+lat_non_numerique;2023;54822;0;Conversion numerique impossible
+lat_hors_limites;2023;54822;0;Coordonnee hors limites geographiques
+long_absente;2023;54822;0;Coordonnee vide
+long_non_numerique;2023;54822;0;Conversion numerique impossible
+long_hors_limites;2023;54822;0;Coordonnee hors limites geographiques
+mois_invalide;2024;54402;0;Mois absent ou hors de 1 a 12
+jour_invalide;2024;54402;0;Jour absent ou hors de 1 a 31
+date_calendaire_invalide;2024;54402;0;Date impossible ou incomplete
+lat_absente;2024;54402;0;Coordonnee vide
+lat_non_numerique;2024;54402;0;Conversion numerique impossible
+lat_hors_limites;2024;54402;0;Coordonnee hors limites geographiques
+long_absente;2024;54402;0;Coordonnee vide
+long_non_numerique;2024;54402;0;Conversion numerique impossible
+long_hors_limites;2024;54402;0;Coordonnee hors limites geographiques
+id_usager_vide;2021;129248;0;Identifiant absent alors que la colonne existe
+id_usager_vide;2022;126662;0;Identifiant absent alors que la colonne existe
+id_usager_vide;2023;125789;0;Identifiant absent alors que la colonne existe
+id_usager_vide;2024;125187;0;Identifiant absent alors que la colonne existe

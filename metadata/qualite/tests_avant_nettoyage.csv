@@ -1,0 +1,13 @@
+﻿test;statut;detail
+volume_caracteristiques;OK;327628 lignes / 327628 attendues
+volume_lieux;OK;359512 lignes / 359512 attendues
+volume_vehicules;OK;559847 lignes / 559847 attendues
+volume_usagers;OK;745158 lignes / 745158 attendues
+unicite_accidents;OK;Num_Acc dans caracteristiques
+unicite_vehicules;OK;Num_Acc + id_vehicule dans vehicules
+references_accidents_lieux;OK;0 lignes sans accident correspondant
+references_accidents_vehicules;OK;0 lignes sans accident correspondant
+references_accidents_usagers;OK;0 lignes sans accident correspondant
+references_usagers_vehicules;OK;0 usagers sans vehicule correspondant
+id_usager_2019_2020;OK;Identifiants absents conserves vides
+annees_couvertes;OK;2019 a 2024 dans chaque table

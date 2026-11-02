@@ -1,0 +1,5 @@
+﻿controle;famille;lignes;identifiants_distincts;ids_sans_reference;lignes_sans_reference
+Num_Acc;lieux;359512;327628;0;0
+Num_Acc;vehicules;559847;327628;0;0
+Num_Acc;usagers;745158;327628;0;0
+Num_Acc + id_vehicule;usagers_vehicules;745158;;;0
