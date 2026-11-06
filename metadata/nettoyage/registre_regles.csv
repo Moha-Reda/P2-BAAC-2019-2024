@@ -1,9 +1,20 @@
-﻿id;famille;variable;annees;probleme;action_proposee;statut
+id;famille;variable;annees;probleme;action_proposee;statut
 R001;caracteristiques;Accident_Id;2022;Nom different;Renommer en Num_Acc dans Silver;VALIDEE
 R002;usagers;id_usager;2019-2020;Colonne absente;Conserver vide sans inventer identifiant;VALIDEE
-R003;lieux;larrout;2020-2024;Valeurs -1 tres frequentes;Verifier signification officielle;A_VERIFIER
-R004;lieux;v2;2019-2024;Marqueurs vide N/A null;Documenter et normaliser si confirme;A_VERIFIER
-R005;lieux;lartpc;2019-2024;Tres forte incompletude;Conserver et documenter;PROVISOIRE
-R006;vehicules;occutc;2019-2024;Tres forte incompletude;Conserver et verifier applicabilite;PROVISOIRE
-R007;usagers;toutes;2019-2020;164 doublons exacts supplementaires;Conserver jusqu a validation metier;A_VERIFIER
-R008;lieux;Num_Acc;2023-2024;Plusieurs lignes par accident;Conserver et documenter cardinalite;PROVISOIRE
+R003;lieux;larrout;2019-2024;-1 tres frequent (2020-2024), vide (2019);Colonne larrout_num : -1 et non numerique -> vide / original conserve;PROPOSEE
+R004;lieux;v2;2019-2024;Marqueurs N/A null;Traite par R010 (marqueurs -> vide);PROPOSEE
+R005;lieux;lartpc;2019-2024;Tres forte incompletude;Conservee / colonne lartpc_num / a deconseiller en analyse;PROPOSEE
+R006;vehicules;occutc;2019-2024;Tres forte incompletude;Conservee / occutc_num / ne concerne que les transports en commun;PROPOSEE
+R007;usagers;toutes;2019-2020;164 doublons exacts supplementaires;Conserves + flag_doublon_exact (1 = repetition) / WP3 decide de les exclure ou non;PROPOSEE
+R008;lieux;Num_Acc;2023-2024;Plusieurs lignes par accident;Conservees + nb_lieux_accident et rang_lieu (rang 1 = lieu principal pour jointure 1-1);PROPOSEE
+R009;toutes;toutes;2019-2024;Espaces parasites;Suppression des espaces en debut/fin;PROPOSEE
+R010;toutes;toutes;2019-2024;Marqueurs textuels d absence (N/A null #ERREUR);Remplaces par vide;PROPOSEE
+R011;toutes;variables categorielles;2019-2024;Codes 0 et -1 de sens variable;CONSERVES tels quels (0 = Aucun/Sans objet/Inconnu selon variable) / libelles via modalites_baac_finalisees.csv;PROPOSEE
+R012;caracteristiques;dep com;2019-2024;Codes sans zeros a gauche possibles;dep sur 2 caracteres, com sur 5 (2A/2B et DOM inchanges);PROPOSEE
+R013;caracteristiques;hrmn;2019-2024;Format heure;Normalise HH:MM + colonne heure + flag_heure_invalide;PROPOSEE
+R014;caracteristiques;jour mois an;2019-2024;Date eclatee;Colonnes date_accident (AAAA-MM-JJ) et jour_semaine (1=lundi) + flag_date_invalide;PROPOSEE
+R015;caracteristiques;lat long;2019-2024;Coordonnees (0,0) ou hors France;(0,0) -> vide / hors metropole/DROM-COM -> flag_coord_hors_territoire (conservees);PROPOSEE
+R016;lieux;nbv;2019-2024;-1, #ERREUR, valeurs extremes;nbv_num : vide si -1 ou >12 + flag;A_VALIDER_CHEF
+R017;lieux;vma;2019-2024;Vitesses impossibles (ex. 500, 700);vma_num : vide hors [5-130] + flag;A_VALIDER_CHEF
+R018;usagers;an_nais;2019-2024;Annees de naissance aberrantes;Colonne age = annee - an_nais / vide hors [0-110] + flag;A_VALIDER_CHEF
+R019;usagers;grav;2019-2024;Indicateurs de gravite;Colonnes est_tue, est_blesse_hospitalise, est_blesse_leger, est_indemne (hospitalises : non comparable avant 2018, indicateur non labellise depuis 2019);PROPOSEE

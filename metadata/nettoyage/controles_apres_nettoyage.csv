@@ -1,0 +1,12 @@
+﻿controle;resultat;detail
+Volume conserve - caracteristiques;OK;327628 -> 327628
+Volume conserve - lieux;OK;359512 -> 359512
+Volume conserve - vehicules;OK;559847 -> 559847
+Volume conserve - usagers;OK;745158 -> 745158
+Num_Acc unique dans caracteristiques;OK;
+(Num_Acc, id_vehicule) unique dans vehicules;OK;
+Aucun orphelin Num_Acc - lieux;OK;0 orphelins
+Aucun orphelin Num_Acc - vehicules;OK;0 orphelins
+Aucun orphelin Num_Acc - usagers;OK;0 orphelins
+Usagers relies a un vehicule existant;OK;0 orphelins
+Aucune valeur -1 dans les mesures numeriques;OK;
