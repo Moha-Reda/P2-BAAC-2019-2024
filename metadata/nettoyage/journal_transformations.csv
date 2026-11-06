@@ -1,0 +1,145 @@
+﻿regle;famille;annee;valeurs_touchees;description
+R009;caracteristiques;2019;332;Espaces superflus supprimes
+R009;caracteristiques;2020;1940;Espaces superflus supprimes
+R009;caracteristiques;2021;413;Espaces superflus supprimes
+R009;caracteristiques;2022;452;Espaces superflus supprimes
+R009;caracteristiques;2023;298;Espaces superflus supprimes
+R009;caracteristiques;2024;298;Espaces superflus supprimes
+R010;caracteristiques;2019;427;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;caracteristiques;2020;357;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;caracteristiques;2021;573;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;caracteristiques;2022;1232;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;caracteristiques;2023;971;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;caracteristiques;2024;2308;Marqueurs N/A, null, #ERREUR remplaces par vide
+R012;caracteristiques;2019;2966;Codes dep/com completes par des zeros a gauche
+R012;caracteristiques;2020;0;Codes dep/com completes par des zeros a gauche
+R012;caracteristiques;2021;0;Codes dep/com completes par des zeros a gauche
+R012;caracteristiques;2022;0;Codes dep/com completes par des zeros a gauche
+R012;caracteristiques;2023;0;Codes dep/com completes par des zeros a gauche
+R012;caracteristiques;2024;0;Codes dep/com completes par des zeros a gauche
+R013;caracteristiques;2019;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2020;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2021;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2022;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2023;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2024;0;hrmn normalise au format HH:MM
+R013;caracteristiques;2019;0;hrmn invalide -> flag (heure vide)
+R013;caracteristiques;2020;0;hrmn invalide -> flag (heure vide)
+R013;caracteristiques;2021;0;hrmn invalide -> flag (heure vide)
+R013;caracteristiques;2022;0;hrmn invalide -> flag (heure vide)
+R013;caracteristiques;2023;0;hrmn invalide -> flag (heure vide)
+R013;caracteristiques;2024;0;hrmn invalide -> flag (heure vide)
+R014;caracteristiques;2019;0;Date invalide ou an different du millesime -> flag
+R014;caracteristiques;2020;0;Date invalide ou an different du millesime -> flag
+R014;caracteristiques;2021;0;Date invalide ou an different du millesime -> flag
+R014;caracteristiques;2022;0;Date invalide ou an different du millesime -> flag
+R014;caracteristiques;2023;0;Date invalide ou an different du millesime -> flag
+R014;caracteristiques;2024;0;Date invalide ou an different du millesime -> flag
+R015;caracteristiques;2019;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2020;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2021;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2022;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2023;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2024;0;Coordonnees (0,0) -> vide
+R015;caracteristiques;2019;540;Coordonnees hors territoire francais -> flag (conservees)
+R015;caracteristiques;2020;465;Coordonnees hors territoire francais -> flag (conservees)
+R015;caracteristiques;2021;493;Coordonnees hors territoire francais -> flag (conservees)
+R015;caracteristiques;2022;504;Coordonnees hors territoire francais -> flag (conservees)
+R015;caracteristiques;2023;551;Coordonnees hors territoire francais -> flag (conservees)
+R015;caracteristiques;2024;562;Coordonnees hors territoire francais -> flag (conservees)
+R009;lieux;2019;5125;Espaces superflus supprimes
+R009;lieux;2020;45387;Espaces superflus supprimes
+R009;lieux;2021;55619;Espaces superflus supprimes
+R009;lieux;2022;53974;Espaces superflus supprimes
+R009;lieux;2023;60818;Espaces superflus supprimes
+R009;lieux;2024;57676;Espaces superflus supprimes
+R010;lieux;2019;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;lieux;2020;44918;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;lieux;2021;51608;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;lieux;2022;50144;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;lieux;2023;65149;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;lieux;2024;64464;Marqueurs N/A, null, #ERREUR remplaces par vide
+R003;lieux;2019;0;larrout : -1 ou non numerique -> vide
+R003;lieux;2020;44214;larrout : -1 ou non numerique -> vide
+R003;lieux;2021;53810;larrout : -1 ou non numerique -> vide
+R003;lieux;2022;51456;larrout : -1 ou non numerique -> vide
+R003;lieux;2023;52584;larrout : -1 ou non numerique -> vide
+R003;lieux;2024;48646;larrout : -1 ou non numerique -> vide
+R005;lieux;2019;0;lartpc : -1 ou non numerique -> vide
+R005;lieux;2020;0;lartpc : -1 ou non numerique -> vide
+R005;lieux;2021;0;lartpc : -1 ou non numerique -> vide
+R005;lieux;2022;0;lartpc : -1 ou non numerique -> vide
+R005;lieux;2023;0;lartpc : -1 ou non numerique -> vide
+R005;lieux;2024;0;lartpc : -1 ou non numerique -> vide
+R016;lieux;2019;650;nbv : -1 ou non numerique -> vide
+R016;lieux;2020;460;nbv : -1 ou non numerique -> vide
+R016;lieux;2021;559;nbv : -1 ou non numerique -> vide
+R016;lieux;2022;561;nbv : -1 ou non numerique -> vide
+R016;lieux;2023;4153;nbv : -1 ou non numerique -> vide
+R016;lieux;2024;4178;nbv : -1 ou non numerique -> vide
+R016;lieux;2019;0;nbv hors [0, 12] -> vide + flag
+R016;lieux;2020;0;nbv hors [0, 12] -> vide + flag
+R016;lieux;2021;0;nbv hors [0, 12] -> vide + flag
+R016;lieux;2022;0;nbv hors [0, 12] -> vide + flag
+R016;lieux;2023;0;nbv hors [0, 12] -> vide + flag
+R016;lieux;2024;0;nbv hors [0, 12] -> vide + flag
+R017;lieux;2019;881;vma : -1 ou non numerique -> vide
+R017;lieux;2020;740;vma : -1 ou non numerique -> vide
+R017;lieux;2021;875;vma : -1 ou non numerique -> vide
+R017;lieux;2022;897;vma : -1 ou non numerique -> vide
+R017;lieux;2023;4578;vma : -1 ou non numerique -> vide
+R017;lieux;2024;3630;vma : -1 ou non numerique -> vide
+R017;lieux;2019;61;vma hors [5, 130] -> vide + flag
+R017;lieux;2020;46;vma hors [5, 130] -> vide + flag
+R017;lieux;2021;49;vma hors [5, 130] -> vide + flag
+R017;lieux;2022;38;vma hors [5, 130] -> vide + flag
+R017;lieux;2023;0;vma hors [5, 130] -> vide + flag
+R017;lieux;2024;72;vma hors [5, 130] -> vide + flag
+R008;lieux;2019;0;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R008;lieux;2020;0;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R008;lieux;2021;0;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R008;lieux;2022;0;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R008;lieux;2023;16038;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R008;lieux;2024;15846;Lignes de lieux supplementaires conservees (rang_lieu > 1)
+R009;vehicules;2019;374;Espaces superflus supprimes
+R009;vehicules;2020;750;Espaces superflus supprimes
+R009;vehicules;2021;603;Espaces superflus supprimes
+R009;vehicules;2022;468;Espaces superflus supprimes
+R009;vehicules;2023;324;Espaces superflus supprimes
+R009;vehicules;2024;280;Espaces superflus supprimes
+R010;vehicules;2019;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;vehicules;2020;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;vehicules;2021;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;vehicules;2022;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;vehicules;2023;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;vehicules;2024;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R006;vehicules;2019;0;occutc : -1 ou non numerique -> vide
+R006;vehicules;2020;0;occutc : -1 ou non numerique -> vide
+R006;vehicules;2021;0;occutc : -1 ou non numerique -> vide
+R006;vehicules;2022;0;occutc : -1 ou non numerique -> vide
+R006;vehicules;2023;0;occutc : -1 ou non numerique -> vide
+R006;vehicules;2024;0;occutc : -1 ou non numerique -> vide
+R009;usagers;2019;132578;Espaces superflus supprimes
+R009;usagers;2020;105267;Espaces superflus supprimes
+R009;usagers;2021;129204;Espaces superflus supprimes
+R009;usagers;2022;126630;Espaces superflus supprimes
+R009;usagers;2023;125659;Espaces superflus supprimes
+R009;usagers;2024;124046;Espaces superflus supprimes
+R010;usagers;2019;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;usagers;2020;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;usagers;2021;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;usagers;2022;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;usagers;2023;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R010;usagers;2024;0;Marqueurs N/A, null, #ERREUR remplaces par vide
+R007;usagers;2019;101;Doublon exact signale (conserve)
+R007;usagers;2020;63;Doublon exact signale (conserve)
+R007;usagers;2021;0;Doublon exact signale (conserve)
+R007;usagers;2022;0;Doublon exact signale (conserve)
+R007;usagers;2023;0;Doublon exact signale (conserve)
+R007;usagers;2024;0;Doublon exact signale (conserve)
+R018;usagers;2019;176;Age hors [0, 110] -> vide + flag
+R018;usagers;2020;15;Age hors [0, 110] -> vide + flag
+R018;usagers;2021;0;Age hors [0, 110] -> vide + flag
+R018;usagers;2022;0;Age hors [0, 110] -> vide + flag
+R018;usagers;2023;0;Age hors [0, 110] -> vide + flag
+R018;usagers;2024;0;Age hors [0, 110] -> vide + flag
